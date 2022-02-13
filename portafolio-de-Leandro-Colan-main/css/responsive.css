@@ -1,0 +1,392 @@
+@media all and (min-width:800px)and (max-width:1200px) {
+    #presentacion h1,#trabajo h1,.caja h1{
+        font-size: 45px;
+
+    
+    }
+    #presentacion p{
+        font-size: 25px;
+        
+       
+    
+    }
+    #trabajo ul li a{
+
+        font-size: 35px;
+
+     
+    }
+    .caja h2 {
+
+        font-size: 30px;
+      
+    }
+    footer h1 a, footer p a{
+      
+        font-size: 30px;
+      
+    }
+    footer h1 a:hover, footer p a:hover{
+    
+        font-size: 35px;
+    }
+    .miSlider img,.miSlider2 img,.miSlider3 img,.miSlider2 img{
+        
+      width: 100%;
+        height:100%;
+    
+     
+
+    }
+    .miSlider2{
+        width: 100% ;
+    height: 100vh;
+    }
+    .miSlider2 video{
+        width: 50% ;
+    
+        height:80%;
+    
+        transition: 2s;
+    }
+    
+    .descripcion{
+        width: 50%;
+            
+        height: 40%;
+    
+    }
+    .descripcion h2{
+        
+    font-size: 35px;
+     
+    }
+    .descripcion p{
+        font-size: 18px;
+        
+    }
+   
+
+    .modal{
+        width: 75%;
+        height: 90%;
+    
+       
+    }
+   
+    
+    .modal-textos h1{
+    
+        font-size: 35px;
+     
+    }
+ 
+    
+    
+    
+    #botones ul li{
+
+    margin:8px;
+    }
+    #botones ul li a{
+
+        font-size: 20px;
+   
+        
+    }
+    #foto{
+    
+        width: 20%;
+        height: 75%;
+
+    }
+    
+    #contactos{
+        
+        width:35% ;
+        
+    
+    }
+   
+   
+    .photoshop{
+        width: 140px;
+            height: 190px;
+      
+        }
+       
+        .hover a h2{
+       
+            font-size: 0.8em;
+        
+        }
+        .photoshop2{
+            width: 195px;
+            height: 100px;
+            
+        }
+        
+ 
+}
+@media all and (max-width: 799px) {
+
+
+    #botones{
+        width: 50%;
+       height: 100vh;
+       
+    right: 150%;
+    position: absolute;
+
+
+
+               
+   
+    }
+    #botones ul{
+             background-color:  rgba(0, 0, 38, 0.953);;
+display: flex;
+    border-radius: 1em;
+justify-content: space-evenly;
+align-items: center;
+flex-direction: column;
+ 
+position: fixed;
+height: 100%;
+margin-top: 50px;
+    }
+    
+  header{
+      height: 150px;
+ 
+  }
+    #foto{
+      
+        width: 15%;
+        height: 44%;
+        
+       
+   
+    }
+    
+    #contactos{
+       
+        width:10% ;
+        
+
+      
+    
+     
+    
+    }
+    
+    #contactos ul li a img{
+        width: 60%;
+        height: 15px;
+        margin: 3px;
+        float:right;
+    }
+    #contactos ul{
+padding: 1px;
+
+position: absolute;
+display: inline-block;
+          
+   
+    }
+
+    .icon-menu{
+		display: inline-block;
+left: 0;
+
+		position: fixed;
+	}
+    .menu_bar{
+		
+
+		width: 20px;
+		left: 20px;
+		margin-top: 19px;
+		position: relative;
+		z-index:1000000;
+		
+
+	}
+
+    #presentacion p{
+        font-size: 13px;
+        padding: 0.5em;
+        text-align: justify;
+
+    
+    }
+    #presentacion h1,#trabajo h1,.caja h1{
+        font-size:30px;
+  
+        margin-top: 0;
+        text-align: center;
+    
+    }
+    #presentacion h1,#trabajo h1{
+        margin-top: 20px;
+    }
+    footer{
+    
+        flex-direction: column;
+     display: flex;
+           justify-content: space-evenly;
+        align-items: center;
+        
+    
+    
+    }
+    
+    footer h1 a, footer p a{
+       
+        font-size: 20px;
+    
+    }
+    footer h1 a:hover, footer p a:hover{
+     
+        font-size: 22px;
+    }
+    #trabajo ul li a{
+       
+        font-size: 20px;
+     
+     
+    }
+    #trabajo ul li a:hover{
+  
+        font-size: 26px;
+    }
+    ul  li{
+
+        font-size: 22px;
+
+    
+    
+     }
+     .caja h2 {
+      
+    
+        font-size: 20px;
+    
+    
+    }
+
+    ul  li{
+        
+        font-size: 15px;
+       
+    
+     }
+    .modal{
+        width: 90%;
+        height: 90%;
+    
+       
+    }
+    .modal-textos h1{
+          font-size: 25px;
+     
+    }
+ 
+    .modal-textos ul li{
+
+        font-size: 15px;
+    }
+    .direcciones{
+      
+        font-size: 26px;
+        
+        
+    }
+    .barra,.barra2,.barra3{
+       
+        height: 4px;
+        width: 15px;
+     
+    }
+    .miSlider,.miSlider3{
+        width: 100% ;
+      
+
+       
+        
+    }
+    .miSlider img,.miSlider2 img,.miSlider3 img,.miSlider2 img{
+    
+        width: 100%;
+          height:40%;
+      
+ 
+          transition: 2s;
+      }
+  
+      .miSlider2{
+          width: 100% ;
+      height: 100vh;
+      }
+      .miSlider2 video{
+        width: 50% ;
+    
+        height:50%;
+  
+    }
+      
+      .descripcion{
+          width: 50%;
+              
+          height: 40%;
+      
+      }
+      .descripcion h2{
+          
+      font-size: 20px;
+       
+      }
+      .descripcion p{
+          font-size: 11px;
+          
+      }
+   .caja-imagenes{
+       padding: 5%;
+   }
+      .caja-imagenes2{
+          width: 100%;
+          height: 100%;
+          float: left;
+         
+
+     
+          
+      }
+      .photoshop{
+        width:47%;
+            height: 30%;
+      
+      
+        }
+     
+        .hover a h2{
+    
+            font-size: 0.5em;
+            
+        
+        }
+        .photoshop2{
+            width: 47%;
+              height: 15%;
+        float: left;
+           
+              
+          
+        }
+      div #titulo-photoshop{
+        font-size: 30px;
+      margin-top: 1px;
+     }
+     
+    
+}
