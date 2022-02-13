@@ -1,0 +1,349 @@
+.paradax{
+    animation-duration: 5s;
+    animation-name: text;
+}
+
+@keyframes text{
+
+    from{
+
+         opacity: 0;
+    }
+       to{
+           opacity: 1   ;
+       }
+    
+}
+
+header{
+    animation-duration: 2s;
+    animation-name: cabeza;
+}
+@keyframes cabeza{
+
+
+    from{
+        transform:translate3d(0,-100%,0);
+        opacity: 0;
+    }
+    to{
+        transform: translate3d(0,0,0);
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/*carrusel*/
+.primerCarrusel,.segundoCarrusel,.tercerCarrusel{
+    max-width: 100%;
+    height:100%;
+max-height: 100vh;
+    width:100%;
+    position: relative;
+    overflow: hidden;
+    
+    margin: auto;
+}
+.miSlider,.miSlider3{
+    width: 100% ;
+    height: 100vh;
+   
+
+    transition: 2s;
+    
+}
+.miSlider img,.miSlider2 img,.miSlider3 img,.miSlider2 img{
+    
+  width: 100%;
+    height:85%;
+
+ 
+    transition: 2s;
+}
+.miSlider2{
+    width: 100% ;
+    height: 100vh;
+    max-height: 100vh;
+    
+}
+.miSlider2 video{
+    width: 50% ;
+
+    height:80%;
+
+    transition: 2s;
+}
+
+.descripcion{
+    width: 50%;
+    float: left;
+    height: 80%;
+
+  align-items: center;
+}
+.descripcion h2{
+    
+font-size: 40px;
+    color: #76dbff;  
+    margin-top: 0;
+    text-align: center;
+    font-family: 'Luxurious Script', cursiva;
+}
+.descripcion p{
+    font-size: 20px;
+    font-family: 'Merienda', cursive;
+    color: #ffffff; 
+
+      text-align: justify; 
+      padding: 1em;
+}
+.descripcion p a{
+    text-decoration: none;
+    color: #76dbff; 
+
+
+}
+.descripcion p a:hover{
+    color: #ffffff;  
+}
+.caja-imagenes{
+  width: 100%;
+
+height:450px;  
+}
+.caja-imagenes2{
+    width: 26%;
+    height: 450px;
+
+    float: right;
+   
+    
+}
+.photoshop{
+width: 185px;
+    height: 280px;
+    float: left;
+    overflow: hidden;
+    position: relative; 
+    margin: 3px;
+}
+.photoshop  .hover,.photoshop2 .hover{
+    width:100%;
+    height: 0%;
+    background-color: rgba(24, 29, 19, 0.623);
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: .4s all;
+}
+.hover a h2{
+    color: aliceblue;
+    text-decoration: none;
+    text-shadow: black;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+.photoshop:hover .hover, .photoshop2:hover .hover{
+    height: 100%;
+  
+}
+.hover a h2:hover{
+    font-size: 1.1em;
+}
+#logo-Terrastra{
+
+    background-image: url(/imagenes/photoshop/logo-server.png);
+   background-size: cover;
+       cursor: pointer;
+        object-fit: cover;
+        transition: .4s all; 
+}
+#karaoke{
+    
+    background-image: url(/imagenes/photoshop/karaoke+18.jpg);
+    background-size: cover;
+    cursor: pointer;
+     object-fit: cover;
+     transition: .4s all; 
+     opacity: 1;    
+}
+#verano{
+    background-image: url(/imagenes/photoshop/verano.jpg);
+    background-size: cover;
+    cursor: pointer;
+     object-fit: cover;
+     transition: .4s all; 
+     opacity: 1;    
+}
+#pokemon{
+    background-image: url(/imagenes/photoshop/pokemon-unite.jpg);
+    background-size: cover;
+    cursor: pointer;
+     object-fit: cover;
+     transition: .4s all; 
+     opacity: 1;    
+}
+.photoshop2{
+    width: 250px;
+    height: 150px;
+    margin: 0;
+    float: left;
+    overflow: hidden;
+    position: relative; 
+    margin: 3px;
+}
+
+
+#boda{
+    background-image: url(/imagenes/photoshop/cartel-boda.png);
+    background-size: cover;
+    cursor: pointer;
+    object-fit: cover;
+    transition: .4s all;
+}
+#dia-madre{
+    background-image: url(/imagenes/photoshop/dia-de-la-madre.jpg);
+    background-size: cover;
+    cursor: pointer;
+    object-fit: cover;
+    transition: .4s all;
+}
+.direcciones{
+width: 100%;
+
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 60px;
+margin-top:50px ;
+
+    
+}
+.direcciones a{
+    display: inline-block;
+    padding:5px;
+    text-decoration: none;
+    color: #fff;
+    
+}
+.direcciones a:hover{
+    background: rgba(0, 0, 143, 0.446);
+    transition: .5s;
+    color: rgba(0, 0, 0, 0.446);;
+}
+.barras,.barras2,.barras3{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+ 
+
+}
+.barra,.barra2,.barra3{
+    cursor: pointer;
+    height: 20px;
+    width: 25px;
+    margin: 0 2px;
+    background: #fff;
+    border-radius: 0.5em;
+    display: inline-block;
+    margin-left: 3px;
+}
+.active,.active2,.active3{
+    background-color: rgb(28, 0, 128);
+}
+.fade{
+    animation-name:fade;
+    animation-duration: 1.5s;
+  
+} 
+ @keyframes fade {
+        from {opacity: .4;}
+            to{opacity:1;}
+        
+    }
+/*termina carrusel*/
+/*modal*/
+
+    .modal-container{
+        opacity: 0;
+        visibility: hidden;
+        position: fixed;
+        z-index: 100000;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: center;
+    
+        align-items: center;
+    }
+    .modal{
+        width: 50%;
+        height: 70%;
+    
+        background-image: url(/imagenes/contactos.jpg)  ;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        position: relative;
+        transition: transform 1s;
+      transform: translateY(0%);
+    border-radius: 15px;
+    }
+    .modal-close{
+        transform: translateY(-200%);
+    }
+   
+    
+    .modal-textos h1{
+        color: #76dbff; 
+        font-size: 35px;
+     
+    }
+ 
+    .modal-textos ul li{
+        color: #ffffff; 
+        font-size: 25px;
+    }
+    .close{
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        background:rgb(4, 0, 255);
+        color: blanchedalmond;
+        line-height: 25px;
+        cursor:pointer;
+        border-radius: 50%;
+    
+    }
+    .cta{
+        display: inline-block;
+      
+      
+    }
+    
+    /*termina modal*/
+    
